@@ -25,7 +25,7 @@ resource "aws_eip" "ip" {
   instance = aws_instance.FirstAutomatedServer.id
 }
 
-module "var" {
-  source = "../dev/"
-  region = var.region
-}
+//module "var" {
+//  source = "../dev/"
+//  region = var.region
+//}
